@@ -34,15 +34,19 @@
   text-decoration: none;
 }
 
-.header-address {
+.address {
   display: flex;
   flex-direction: column;
-  padding-right: 20px;
-  justify-self: end;
-  max-width: 240px;
   font-style: normal;
   font-size: 18px;
-  list-style: none;
+  align-items: flex-start;
+  line-height: 24.3px;
+}
+
+.header-address {
+  max-width: 240px;
+  justify-self: end;
+  margin-top: 4px;
 }
 
 .cover {
@@ -55,19 +59,8 @@
   background-repeat: no-repeat;
   background-position: center;
   z-index: 0;
-  margin-bottom: 180px;
+  margin-bottom: 189px;
   padding: 165px 50px 50px;
-}
-
-.cover_overlay {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
 }
 
 .cover-title {
@@ -117,7 +110,8 @@
 
 .span_center {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+  margin-left: 10px;
 }
 
 .span_end {
@@ -143,7 +137,7 @@
 .lots {
   width: 100%;
   opacity: 1;
-  margin: 0 auto 120px;
+  margin: 0px auto 120px;
 }
 
 .lots__title {
@@ -246,14 +240,14 @@
   line-height: 100%;
   letter-spacing: 0%;
   padding: 0 120px 2px 40px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 23px;
 }
 
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin: 0 24px 180px;
+  margin: 0px 23px 167px;
   /* padding-top: 35px;
   gap: 25px;
   padding-top: 120px;
@@ -266,7 +260,7 @@
   padding: 133px 0 13px;
   width: 693px;
   margin-left: 45px;
-  margin-right: 10px;
+  margin-bottom: 4px;
 }
 
 .about-logo {
@@ -299,7 +293,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
 .footer {
@@ -308,13 +303,16 @@
   justify-self: start;
   align-self: start;
   font-size: 18px;
-  /* padding-top: 170px; */
   font-style: normal;
+  margin-bottom: 15px;
 }
 .hreff {
-  text-decoration: none;
   list-style: none;
   font-size: 18px;
+}
+
+.footer-link-active {
+  text-decoration: none;
 }
 
 .footer-nav {
@@ -334,17 +332,14 @@
 }
 
 .footer-address {
-  display: flex;
-  flex-direction: column;
-  justify-self: start;
-  margin-left: 50px;
+  margin-left: 48px;
   padding-right: 154px;
-  line-height: 24.3px;
 }
 
 .spann {
   margin-bottom: 3px;
-  margin-left: 2px;
+  margin-right: 12px;
+  margin-left: 3px;
 }
 
 .address-item {
@@ -354,6 +349,7 @@
   font-size: 18px;
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
+  margin-left: 3px;
 }
 
 .logoo {
